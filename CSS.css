@@ -1,12 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 body{
-    background-color: rgb(218, 215, 175);
+    background-color: rgb(235, 225, 86);
+    font: 18px Architects Daughter;
 }
-h1{
+#pai_h1 {
     background-color: red;
-    text-align: center;
-    position: relative;
-    right: 0.6vw;
-    bottom: 22px;
-    width: 100vw;
     height: 20vh;
+    width: 100vw;
+    position: relative;
+    bottom: 22px;
+    right: 0.6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#pai_h1 h1 {
+    margin: 0;
 }

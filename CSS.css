@@ -1,3 +1,12 @@
 body{
     background-color: rgb(218, 215, 175);
 }
+h1{
+    background-color: red;
+    text-align: center;
+    position: relative;
+    right: 0.6vw;
+    bottom: 22px;
+    width: 100vw;
+    height: 20vh;
+}

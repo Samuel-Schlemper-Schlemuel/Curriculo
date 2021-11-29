@@ -9,11 +9,30 @@ body{
     width: 100vw;
     position: relative;
     bottom: 22px;
-    right: 0.6vw;
+    right: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#pai_h1 h1 {
-    margin: 0;
+
+#pai_inicial{
+  background-color: green;
+  width: 70vw;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  animation: entrada 3s 1;
+}
+
+@keyframes entrada {
+  0%{
+    position: relative;
+    right: 80vw;
+  }
+  100%{
+    right: 0vw;
+  }
 }

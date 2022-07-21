@@ -1,61 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
 body{
-    background-color: rgb(235, 225, 86);
-    font: 18px Architects Daughter;
-    overflow-x:hidden;
-}
-#pai_h1 {
-    background-color: red;
-    height: 20vh;
-    width: 100vw;
-    position: relative;
-    bottom: 22px;
-    right: 8px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-}
-
-#pai_inicial{
-  background-color: rgba(0, 128, 0, 0.7);
-  width: 70vw;
-  margin-top: 10px;
-  display: flex;
-  align-items: center;
+  margin: 0px;
+  padding: 0px;
   text-align: center;
+  font-family: 'M PLUS Rounded 1c';
+  font-size: 16px;
+  color: white;
+  background-color: rgb(25, 25, 41);
+}
+
+header{
+  height: 100vh;
+  background-color: rgb(27, 101, 150);
+  background-image: url('Foto_frontal.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  animation: entrada 3s 1;
-}
-
-#pai_linguagens{
-    background-color: rgba(12, 202, 202, 0.7);
-    width: 70vw;
-    margin-top: 20px;
-    margin-left: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    animation: entrada_inversa 3s 1;
-}
-
-@keyframes entrada {
-  0%{
-    position: relative;
-    right: 80vw;
-  }
-  100%{
-    right: 0vw;
-  }
-}
-
-@keyframes entrada_inversa {
-  0%{
-    position: relative;
-    left: 80vw;
-  }
-  100%{
-    left: 0vw;
-  }
+  align-items: flex-start;
+  box-sizing: border-box;
 }

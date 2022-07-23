@@ -1,25 +1,128 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   text-align: center;
   font-family: 'M PLUS Rounded 1c';
   font-size: 16px;
   color: white;
-  background-color: rgb(25, 25, 41);
+  background-color: rgb(5, 121, 34);
 }
 
 header{
   height: 100vh;
   background-color: rgb(27, 101, 150);
-  background-image: url('Foto_frontal.jpeg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  box-sizing: border-box;
+  padding: 0 10px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+img{
+  max-width: 100%;
+}
+
+h1{
+  letter-spacing: 2px;
+}
+
+nav{
+  position: fixed;
+  background-color: rgb(196, 15, 2);
+  top: 0;
+  width: 100vw;
+  height: 60px;
+  text-align: end;
+  display: grid;
+  align-items: center;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.8);
+}
+
+a{
+  text-decoration: none;
+}
+
+nav a{
+  color: black;
+  margin-right: 15px;
+  font-size: 20px;
+  padding: 16px;
+  transition: all 0.2s;
+}
+
+#apresentacao_basica{
+  background-color: white;
+  padding: 10px;
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.8);
+  border-radius: 50px;
+  color: black;
+  height: 450px;
+  width: 550px;
+}
+
+#foto{
+  width: 420px;
+  border-radius: 10%;
+}
+
+nav a:hover{
+  background-color: rgb(228, 186, 0);
+}
+
+main{
+  background-color: rgb(25, 25, 41);
+}
+
+#projects{
+  padding: 30px;
+  padding-top: 50px;
+}
+
+#projects ul{
+  text-align: start;
+}
+
+#projects li{
+  list-style-type: none;
+}
+
+.project-tile{
+  color: white;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+
+.project-tile img{
+  height: 300px;
+  width: 300px;
+}
+
+.project-tile span{
+  margin-left: 8px;
+  font-size: 20px;
+}
+
+footer a{
+  color: white;
+}
+
+#profile-link{
+  font-size: 18px;
+}
+
+#profile-link a{
+  margin-left: 20px;
+}
+
+#profile-link img{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
 }

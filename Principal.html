@@ -9,48 +9,71 @@
 </head>
 <body>
     <header id='welcome-section'>
-        <div id="navbar">
-            <input type="checkbox" id="toggle">
-            <label id="checkbox">
-                <div class="trace"></div>
-                <div class="trace"></div>
-                <div class="trace"></div>
-            </label>
-            <div id="menu"></div>
-            <nav id="menu-items">
-                <ul>
-                    <li>
-                        <a></a>
-                    </li>
-                    <li>
-                        <a></a>
-                    </li>
-                    <li>
-                        <a></a>
-                    </li>
-                </ul>
-            </nav>
+        <nav id="navbar">
+            <div>
+                <a href="#welcome-section" title="A pagína inicial do projeto">Início</a>
+                <a href="#projects" title="Alguns programas que já construi">Projetos</a>
+                <a href="#sobre_mim" title="Alguns detalhes sobre minha vida, estudos e contatos">Sobre mim</a>
+            </div>
+        </nav>
+        <div id="apresentacao_basica">
+            <img src="imagens/Foto_lateral.jpg" alt="Foto minha" id="foto">
+            <h1>Samuel Schlemper</h1>
+            <span>Florianópolis, SC</span>
         </div>
-        <h1>Bem Vindo</h1>
-        <h2>Aqui é uma página para mostrar meus projetos e falar um pouco sobre mim</h2>
     </header>
-
     <main>
-        <h2>Esses são os meus projetos</h2>
         <div id="projects">
-            <a href="https://codepen.io/321thm/full/BadBzLw" id="coropletico">
-                <img src='Mapa_coropletico.png' alt='Um mapa coroplético dos EUA mostrando o nivel de educação superior, ele foi feito em D3js' class='imagem'>
-                <p>Mapa coroplético</p>
-            </a>
-            <a href="https://codepen.io/321thm/full/XWEMoqL" id="arvore">
-                <img src='Mapa_de_arvore.png' alt='Um mapa de árvore mostrando filmes com grande número de vendas e seus gêneros, ele foi feito em D3js' class='imagem'>
-                <p>Mapa de árvore</p>
-            </a>
+            <h1>Alguns projetos meus</h1>
+            <ul>
+                <li>
+                    <a href="https://codepen.io/321thm/full/BadBzLw" class="project-tile" target="_blank">
+                        <img src="imagens/Mapa_coropletico.png" alt="Mapa coropletico mostrando a quantidade de educação superior de determinadas regiões dos EUA">
+                        <span>Esse é um mapa que mostra em que regiões a mais educação superior nos EUA, o qual foi feito com JS e a biblioteca D3js.</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://codepen.io/321thm/full/XWEMoqL" class="project-tile" target="_blank">
+                        <img src="imagens/Mapa_de_arvore.png">
+                        <span>Esse é outro gráfico feito com D3js, mas dessa vez é um mapa de árvore, que mostra a relação entre as bilheterias de filmes famosos.</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://codepen.io/321thm/full/KKqNqLZ" class="project-tile" class="project-tile" target="_blank">
+                        <img src="imagens/Jogo_de_pulos.png">
+                        <span>Esse é um jogo simples feito em JS sem o uso de bibliotecas, nele você é um bloco e tem que pular sobre muros que aparecem em seu caminho.</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Samuel-Schlemper-Schlemuel/Grafico_medico/blob/main/analisador_de_dados_medicos.ipynb" class="project-tile" target="_blank">
+                        <img src="imagens/Grafico_python.png">
+                        <span>Para diferenciar dos outros projetos aqui mostrados, esse não é um site, e sim um código em python que fiz no google coolab que analisa os dados de um banco de dados sobre a saúde das pessoas.</span>
+                    </a>
+                </li>
+            </ul>
         </div>
     </main>
-
-    <footer id='mais_detalhes'>
-        <h2>Para mais detalhes acesse meu <a href="https://github.com/Samuel-Schlemper-Schlemuel">GitHub</a> </h2>
+    <footer id="sobre_mim">
+        <h1>Alguns detalhes sobre mim</h1>
+        <p>
+            Eu estou estudando programação nesse momento, mais também tenho algum conhecimento no pacote office, tenho 16 anos, 
+            moro em Florianópolis, mas estudo no IFSC de palhoça no curso de comunicação visual, periodo vespertino,
+            e atualmente estou procurando um estagio ou emprego de jovem aprendiz.
+        </p>
+        <div id="profile-link">
+            <a href="https://github.com/Samuel-Schlemper-Schlemuel" target="_blank">
+                <img src="imagens/github_logo.png">
+                <span>GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/samuel-schlemper" target="_blank">
+                <img src="imagens/linkedin_logo.png">
+                <span>Linkedin</span>
+            </a>
+            <a href="mailto:samuelschlemper2006@gmail.com" target="_blank">
+                <img src="imagens/email_logo.png">
+                <span>Email</span>
+            </a>
+        </div>
     </footer>
 </body>
 </html>

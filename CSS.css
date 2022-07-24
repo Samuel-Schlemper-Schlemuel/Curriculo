@@ -140,16 +140,33 @@ footer a{
   }
 
   .project-tile img{
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
   }
 
   #contato{
     font-size: 14px;
   }
 
+  #projects{
+    padding-left: 25px;
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 450px){
+  .project-tile img{
+    height: 100px;
+    width: 100px;
+  }
+
   nav a{
-    font-size: 16px;
-    padding: 19px 14px;
+    font-size: 14px;
+    padding: 22px 14px;
+    margin-right: 8px;
+  }
+
+  #projects{
+    padding: 50px 0px 10px;
   }
 }

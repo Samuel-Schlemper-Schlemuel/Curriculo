@@ -152,6 +152,15 @@ footer a{
     padding-left: 25px;
     padding-top: 50px;
   }
+
+  #apresentacao_basica{
+    padding: 15px;
+  }
+
+  #foto{
+    width: 35vw;
+    border-radius: 10%;
+  }
 }
 
 @media (max-width: 450px){
@@ -168,5 +177,14 @@ footer a{
 
   #projects{
     padding: 50px 0px 10px;
+  }
+
+  #apresentacao_basica{
+    padding: 5px;
+  }
+
+  #foto{
+    width: 45vw;
+    border-radius: 10%;
   }
 }

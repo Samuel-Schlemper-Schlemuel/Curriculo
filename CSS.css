@@ -90,6 +90,10 @@ main{
   list-style-type: none;
 }
 
+#detalhes{
+  padding: 0px 10vw;
+}
+
 .project-tile{
   color: white;
   margin-top: 30px;
@@ -161,6 +165,10 @@ footer a{
     width: 35vw;
     border-radius: 10%;
   }
+
+  #detalhes{
+    padding: 0px 5vw;
+  }
 }
 
 @media (max-width: 450px){
@@ -186,5 +194,9 @@ footer a{
   #foto{
     width: 45vw;
     border-radius: 10%;
+  }
+
+  #detalhes{
+    padding: 0px 2vw;
   }
 }

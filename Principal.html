@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="CSS.css" rel="stylesheet">
+    <script type="text/javascript" src="JS.js"></script>
     <title>Portfólio de Samuel Schlemper</title>
 </head>
 <body>
     <header id='welcome-section'>
-        <nav id="navbar">
+        <nav>
             <div>
                 <a href="#welcome-section" title="A pagína inicial do projeto">Início</a>
                 <a href="#projects" title="Alguns programas que já construi">Projetos</a>
@@ -17,7 +18,7 @@
             </div>
         </nav>
         <div id="apresentacao_basica">
-            <img src="imagens/Foto_lateral.jpg" alt="Foto minha" id="foto">
+            <img src="imagens/foto_minha.jpeg" alt="Foto minha" id="foto">
             <h1>Samuel Schlemper</h1>
             <span>Florianópolis, SC</span>
         </div>
@@ -27,23 +28,33 @@
             <h1>Alguns projetos</h1>
             <ul>
                 <li>
-                    <a href="https://engine-simples.onrender.com" class="project-tile" target="_blank">
-                        <img src="imagens/engine-simples.png" alt="Um print da pagina inicial do respectivo site">
-                        <span>Esse é o meu principal projeto, o qual é uma engine onde você pode criar simples jogos de botões e eles serão salvos num banco de dados da web, e depois pode usar um link oferecido pelo site para importar o jogo no seu próprio site, a baixo está um exemplo de jogo criado com ele. Para criar o site usei JS, CSS, EJS e Node.js, além de algumas bibliotacas, com mongoDB, Express e Bootstrap.</span>
+                    <a href="https://engine-simples.onrender.com" class="project-link" target="_blank">
+                        <img src="imagens/engine-simples.png" alt="Um print da pagina inicial do respectivo site" id="engine-img">
+                        <span>
+                            Site para criar e editar jogos simples de botões. Abaixo, há um exemplo de jogo 
+                            criado com ele. Desenvolvido com JS, CSS, EJS e Node.js, além de 
+                            bibliotecas como MongoDB, Express e Bootstrap.
+                        </span>
                     </a>
                     <br>
                     <iframe frameborder="0" src="https://engine-simples.onrender.com/game/ujkgms9tfqw40qxdc56k"></iframe>
                 </li>
                 <li>
-                    <a href="https://codepen.io/321thm/full/BadBzLw" class="project-tile" target="_blank">
-                        <img src="imagens/Mapa_coropletico.png" alt="Mapa coropletico.">
-                        <span>Mapa coroplético que mostra em que regiões há mais educação superior nos EUA, o qual foi feito com JS e a biblioteca D3js.</span>
+                    <a href="https://codepen.io/321thm/full/BadBzLw" class="project-link" target="_blank">
+                        <img src="imagens/Mapa_coropletico.png" alt="Mapa coropletico." id="mapa-img">
+                        <span>
+                            Site com um mapa coroplético que destaca as regiões com maior nível de educação superior nos EUA, 
+                            desenvolvido com JS e a biblioteca D3.js.
+                        </span>
                     </a>
                 </li>
                 <li>
-                    <a href="https://github.com/Samuel-Schlemper-Schlemuel/Grafico_medico/blob/main/analisador_de_dados_medicos.ipynb" class="project-tile" target="_blank">
-                        <img src="imagens/Grafico_python.png" alt="Algumas linhas de código tendo um gráfico de barras como resultado.">
-                        <span>Para diferenciar dos outros projetos aqui mostrados, esse não é um site, e sim um código em python que fiz no google coolab que analisa os dados de um banco de dados sobre a saúde das pessoas.</span>
+                    <a href="https://github.com/Samuel-Schlemper-Schlemuel/Grafico_medico/blob/main/analisador_de_dados_medicos.ipynb" class="project-link" target="_blank">
+                        <img src="imagens/Grafico_python.png" alt="Algumas linhas de código tendo um gráfico de barras como resultado." id="grafico-img">
+                        <span>
+                            Notebook que analisa dados de um banco de dados sobre a saúde das pessoas, desenvolvido com Python
+                            e as bibliotecas Pandas, Matplotlib e Seaborn
+                        </span>
                     </a>
                 </li>
             </ul>
@@ -53,8 +64,8 @@
         <h1>Alguns detalhes sobre mim</h1>
         <p id="detalhes">
             Estou cursando o técnico integrado de comunicação visual no IFSC campus Palhoça bilíngue.
-            Tenho 16 anos e busco vagas de jovem aprendiz e estágio.
-            Tenho conhecimento em programação e pacote office.
+            Tenho 18 anos e busco vagas de jovem aprendiz e estágio.
+            Tenho conhecimento em programação, pacote office, Linux e Windows.
         </p>
         <div id="contato">
             <a href="https://github.com/Samuel-Schlemper-Schlemuel" target="_blank" id="profile-link">
